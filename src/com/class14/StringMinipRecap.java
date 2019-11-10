@@ -7,7 +7,7 @@ public class StringMinipRecap {
 		String str=new String("Hello");
 		String str1=new String("Hello");
 		
-		System.out.println(str==str1);
+		System.err.println(str==str1);
 		// bu degerler birbirinden farkli ama su sekilde esit yapabiliriz
 		
 		String str2=str;

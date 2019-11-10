@@ -8,7 +8,7 @@ public class IQs {
 
 		String str = "he987654$%^&*()llo";
 
-		String str1 = str.replaceAll("[^a-zA-Z]", "");
+		String str1 = str.replaceAll("[^a-zA-Z]", "");// burada harfler dsinda baska bir sey alinmayacak anlaminda
 
 		System.out.println(str1);
 		System.out.println(str1.length());
@@ -20,10 +20,10 @@ public class IQs {
 
 		char[] array = str2.toCharArray();
 
-		for (int i = str2.length()-1; i >= 0; i--) {
-			System.out.print(array[i]+" ");
+		for (int i = str2.length() - 1; i >= 0; i--) {
+			System.out.print(array[i] + " ");
 		}
-			
+
 		// System.out.println(array[i]);
 
 		// How to find out the part of the string from a string? What is substring? Find
@@ -33,9 +33,15 @@ public class IQs {
 		// string methods.
 		// What is substring? ==>This method has two variants and returns a new string
 		// that is a substring of this string
-		String str3 = "How to find out the part of the string from a string?";
+		String str3 ="How to find out the part of the string from a string?";
 
-		System.out.println(str3.length());
+		String[] array1 = str3.split(" ");
+		for (int i = 0; i < array1.length; i++) {
+			System.out.print(array1[i]);
+		}
+
+		//System.out.println();
+		System.out.println(array1.length);
 
 	}
 }
