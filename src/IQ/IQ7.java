@@ -13,12 +13,19 @@ public class IQ7 {
 		System.out.println("Pleaseenter any world to polindrom or not");
 		
 		String str=scan.nextLine();
-		char[] arr=str.toCharArray();
 		
-		for(int i=str.length()-1; i>=0; i--) {
-			
-			if(str.equals())
-			System.out.print(arr[i]);
+		String reversed="";
+		
+		for (int i =  str.length()-1; i <=0; i--) {
+			reversed=reversed+str.charAt(i);
 		}
+		System.out.println(reversed);
+		
+		if(reversed.equals(reversed)) {
+			System.out.println("String is polindrom");
+		}else {
+			System.out.println("String is NOT polindrom");
+		}
+		
 	}
 }
