@@ -40,7 +40,7 @@ public class IQs {
 			System.out.print(array1[i]);
 		}
 
-		//System.out.println();
+		System.out.println();
 		System.out.println(array1.length);
 
 	}

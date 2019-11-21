@@ -16,7 +16,7 @@ public class SingleArrayRecapDemo {
 
 		for(int i=0; i<4; i++) {
 			
-			sum=sum+array1[i];
+			sum+=array1[i];
 			System.out.println(array1[i]+" ");
 		}
 		System.out.println("The sum of arra1 is = "+sum);

@@ -9,9 +9,9 @@ public class StringMinipulationDemo2 {
 		 * 
 		 */
 
-		String sentence = "It was rainig";
-		String sen = "raining";
-		System.err.println(sen.contains(sentence));
+		String sentence = "It was raining";
+		String sen ="raining";
+		System.out.println(sentence.contains(sen));
 
 		System.out.println(sentence.contains("w"));
 
@@ -26,9 +26,9 @@ public class StringMinipulationDemo2 {
 
 		String sen1 = "How Are You Today";
 
-		int a = sen.length();
+		int a = sen1.length();
 
-		System.out.println(sen.length());
+		System.err.println(sen1.length());
 
 		System.out.println("=================");
 

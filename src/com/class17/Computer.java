@@ -27,6 +27,7 @@ public class Computer {
 		com1.ram=8;
 		com1.memory=248;
 		
+	
 		
 		
 		System.out.println("\n");

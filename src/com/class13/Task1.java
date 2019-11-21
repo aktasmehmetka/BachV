@@ -9,7 +9,7 @@ public class Task1 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter your your class day:: ");
 		String day = scan.nextLine();
-		String day1 = day.toLowerCase();/// if you wanrt you can used this one too
+		String day1 = day.toLowerCase();/// if you want you can used this one too
 
 		if (day.trim().toLowerCase().equals("Sturday")) {
 			System.out.println("Sturday is java class");
