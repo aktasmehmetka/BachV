@@ -1,4 +1,4 @@
-package com.class23;
+package com.class22_Test;
 
 import com.class22.AccessModifier;
 
