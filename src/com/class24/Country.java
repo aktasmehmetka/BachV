@@ -18,7 +18,7 @@ public class Country {
 
 	Country(String name, String capital) {
 		name = name;
-		capital = capital;// burada degerler taniimli olmadigi icin bir sey basilmayacaktir. cunku program
+		capital = capital;// burada degerler tanimli olmadigi icin bir sey basilmayacaktir. cunku program
 							// ne yaptigini bilmiyor tam olarak
 
 	}

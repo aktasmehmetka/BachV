@@ -2,9 +2,9 @@ package com.class26;
 
 public class Employee {
 
-	int salary;
-	
-	public void getPay() {
-		System.out.println("Employee get pay "+salary);
+	public int salary;
+
+	public void getPaid() {// overriden
+		System.out.println("Employee gets paid " + salary);
 	}
 }
