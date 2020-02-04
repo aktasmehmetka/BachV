@@ -14,7 +14,7 @@ public class StringMethods {
         //replaceAll --> specify regular expression
         //lets remove all special characters
         str=str.replaceAll("[^A-Za-z0-9]", "");
-        System.out.println(str);
+        System.err.println(str);
         
         //split
         String myString="Java classes at Syntax are awesome";

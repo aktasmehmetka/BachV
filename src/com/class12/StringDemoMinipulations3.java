@@ -68,7 +68,7 @@ public class StringDemoMinipulations3 {
 
 		String str8 = "We might mnot be done early";
 		System.out.println(str8.indexOf('m'));
-		System.out.println(str8.indexOf('m', 8));// 4 uncu harfe kadar bak icinde kac tane m varsa yazalim anlaminda
+		System.out.println(str8.indexOf('m', 4));// 4 uncu harfe kadar bak icinde kac tane m varsa yazalim anlaminda
 
 	}
 }

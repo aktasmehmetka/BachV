@@ -10,7 +10,7 @@ public class Hello {
 		obj.sayHello("Diego");
 		obj.sayHelloDifferentLanguage("USA");
 		obj.sayHelloDifferentLanguage("Russia");
-		obj.sayHelloDifferentLanguage("Turkey");
+		obj.sayHelloDifferentLanguage("albania");
 		// obj.sayHelloDifferentLanguage(123); --> you will get compile time error
 
 		obj.sayNameAndAge("Jack", 45);
